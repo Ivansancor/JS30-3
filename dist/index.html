@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/styles.css">
     <title>JS30-3</title>
 </head>
 <body>
@@ -16,15 +16,15 @@
         <div class="controls">
             <div class="control">
                 <label for="spacing">Spacing</label>
-                <input type="range" name="spacing">
+                <input type="range" name="spacing" value="0px" min="0" max="100" data-suffix="px">
             </div>
             <div class="control">
                 <label for="blur">Blur</label>
-                <input type="range" name="blur">
+                <input type="range" name="blur" value="0px" min="0" max="40" data-suffix="px">
             </div>
             <div class="control">
                 <label for="color">Color</label>
-                <input type="color" name="color">
+                <input type="color" name="color" value="#fff33">
             </div>
         </div>
         <div class="image">
